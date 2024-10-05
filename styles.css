@@ -58,16 +58,15 @@ button{
     border:0;
     outline:0;
     cursor: pointer;
-    height: 50px;
+
 
 }
 
 select{
     flex: 1;
-    color: #fff;
-
+    color: #ff456f;
     height: 50px;
-    padding: 0,3px;
+    padding: 0px,30px;
     outline:0;
     border:0;
     border-radius:35px;
@@ -77,6 +76,6 @@ select{
     background-size: 30px;
     background-position-y: 10px ;
     background-position-x: 400px ;
-    background-color: #ff456f;
+    background-color: #f4efef;
 
 }

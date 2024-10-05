@@ -1,7 +1,11 @@
 let speech = new SpeechSynthesisUtterance();
 
 let voices=[];
-letvoiceSelect=document.querySelector("select");
+let voiceSelect=document.querySelector("select");
+
+window.speechSynthesis.onvoiceschanged= () =>{
+    voices = window.speechSynthesis.getVoices();
+}
 
 
 
